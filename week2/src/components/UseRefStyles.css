@@ -1,0 +1,58 @@
+.useref-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .useref-section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .input-focus, 
+  .uncontrolled-input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .focus-button, 
+  .counter-button, 
+  .submit-button, 
+  .scroll-button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .focus-button:hover, 
+  .counter-button:hover, 
+  .submit-button:hover, 
+  .scroll-button:hover {
+    background-color: #45a049;
+  }
+  
+  .stopwatch-buttons button {
+    margin-right: 10px;
+  }
+  
+  .scroll-placeholder {
+    height: 500px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scroll-target {
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 20px;
+  }
